@@ -15,12 +15,7 @@
 	<description>Spring Native for Spring Boot</description>
 
 
-	<build>
-		<finalName>java</finalName> 
-		<plugins>
-		</plugins>
-	</build>
-
+	
 	<properties>
 		<java.version>17</java.version>
 		<hilla.version>2.0.0</hilla.version>
@@ -216,6 +211,8 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>java</finalName> 
+
 		<plugins>
 			<plugin>
 				<groupId>org.hibernate.orm.tooling</groupId>
