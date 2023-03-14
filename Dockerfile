@@ -19,7 +19,7 @@ WORKDIR /app
 
 EXPOSE 8080
 
-COPY --from=builder /app/build/native/nativeCompile/java ./
+COPY --from=builder /app/target/java ./
 RUN ls /app
 
 USER app:app
